@@ -1,3 +1,5 @@
+# Assignment 1
+
 # Task 1
 
 ```Javascript
@@ -63,8 +65,6 @@ button.textContent = "Support Me";
 
 # Assignment 2
 
-# Task 2
-
 ```Javascript
 let accordian = document.querySelectorAll(".accordian h3");
 accordian.forEach((element) => {
@@ -80,8 +80,6 @@ accordian.forEach((element) => {
 ```
 
 # Assingment 3
-
-# Task 3
 
 ```Javascript
 let enterName = document.querySelector(".enterName");
@@ -104,8 +102,6 @@ userMessage.placeholder = "Hello World";
 ```
 
 # Assingment 4
-
-# Task 3
 
 ```Javascript
 let barbarian = document.querySelector(".clash-card__unit-stats--barbarian");
