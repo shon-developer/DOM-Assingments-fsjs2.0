@@ -161,3 +161,56 @@ tagsContainer.appendChild(a);
 a.href = "#";
 a.textContent = "Chinese (7)";
 ```
+
+# Assignment 6
+
+```Javascript
+let logo = document.querySelector(".logo");
+logo.src = "./assets/ineuron-logo.png";
+
+let appPrice = document.querySelector(".app_price span");
+appPrice.innerText = "$10";
+```
+
+# Assignment 7
+
+```Javascript
+let arr = document.querySelector(".main__languages").children;
+let [span, br, ...rest] = arr;
+// console.log(rest);
+
+for (let i = 1; i < arr.length; i++) {
+  arr[i].remove();
+}
+
+let input = (document.querySelector(".main__form-input").value = "iNeuron");
+let submitForm = document.querySelector(".main__form-btn");
+submitForm.submit();
+
+```
+
+# Assignment 8
+
+```Javascript
+let aside = document.querySelector(".col-lg-4");
+
+let hr = document.createElement("hr");
+aside.appendChild(hr);
+hr.className = "hr-line";
+
+let h2 = document.createElement("h2");
+aside.appendChild(h2);
+h2.className = "hr-line";
+h2.textContent = "This is my custom heading";
+```
+
+# Assignemt 9
+
+```Javascript
+let title = document.querySelector(".caption .title");
+title.style.color = "red";
+
+let btn = document.querySelector(".add-to-cart");
+btn.style.backgroundColor = "red";
+
+```
