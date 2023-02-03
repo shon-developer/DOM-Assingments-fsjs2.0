@@ -115,6 +115,9 @@ giant.style.backgroundColor = "orange";
 
 let goblin = document.querySelector(".clash-card__unit-stats--goblin");
 goblin.style.backgroundColor = "green";
+
+let wizard = document.querySelector(".clash-card__unit-stats--wizard");
+wizard.style.backgroundColor = "blue";
 ```
 
 # Assingment 5
@@ -204,7 +207,7 @@ h2.className = "hr-line";
 h2.textContent = "This is my custom heading";
 ```
 
-# Assignemt 9
+# Assignment 9
 
 ```Javascript
 let title = document.querySelector(".caption .title");
